@@ -58,13 +58,6 @@ export default function Registration() {
       <div className="registration">
         <h1>Registration</h1>
         <form className="form">
-          {/* <label>Admin Id</label>
-          <input
-            type="text"
-            onChange={(e) => {
-              setIdReg(e.target.value);
-            }}
-          /> */}
           <label>Username</label>
 
           <input

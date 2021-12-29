@@ -65,11 +65,6 @@ class Issue extends React.Component {
         sid: parseInt(document.getElementById("id").value),
       }),
     });
-    /*.then(res => {
-                fetch('/api/borrowed')
-                .then(res => res.json())
-                .then(e => console.log(e));
-           });*/
   };
 
   render() {

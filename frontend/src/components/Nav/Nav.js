@@ -16,15 +16,6 @@ const Nav = (props) => {
           <a href="/login" className="login-btn">
             Login
           </a>
-          {/* <a href="/borrow">BORROW</a> */}
-          {/* <a href="/notifications">NOTIFICATIONS</a> */}
-          {/* <a href="/addbooks">ADD BOOK</a> */}
-          {/* <a className="loginbtn" href="/registration">
-            LOGIN
-          </a>
-          <a className="logoutbtn" href="/logout">
-            LOGOUT
-          </a> */}
         </ul>
       </div>
       <h1>{props.title}</h1>
